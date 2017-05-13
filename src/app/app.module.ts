@@ -7,17 +7,17 @@ import {AppComponent} from './app.component';
 import {ArticleComponent} from './article/article.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ArticleComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ArticleComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }
